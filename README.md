@@ -1,10 +1,10 @@
-# 🛡️ Malware Detection & Mitigation Tool
+# Mitigating Different Malware Attacks
 
 A cross-platform desktop application that detects and mitigates various types of malware on user devices, including desktops, laptops, and personal computers. It leverages local antivirus engine (ClamAV) and cloud-based threat intelligence (VirusTotal API) for comprehensive protection.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Real-Time Protection** – Automatically scans new files in:
   - Downloads folder
@@ -24,7 +24,7 @@ A cross-platform desktop application that detects and mitigates various types of
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 
 - **Python** – Core application logic
 - **ClamAV** – Local antivirus engine
@@ -32,7 +32,7 @@ A cross-platform desktop application that detects and mitigates various types of
 
 ---
 
-## 📦 Installation Guide
+## Installation Guide
 
 ### Prerequisites
 
@@ -49,3 +49,42 @@ Download and install Python from [python.org](https://python.org)
 ```bash
 git clone https://github.com/Via-321/App.git
 cd App
+3. Open in VS Code (Optional)
+bash
+code .
+4. Install Dependencies
+bash
+pip install -r requirements.txt
+5. Install ClamAV
+OS	Command / Instruction
+Windows	Download from clamav.net and extract to CLAMAV folder
+macOS	brew install clamav
+Linux	sudo apt install clamav
+6. Run the Application
+bash
+python app.py
+Quick Start
+Protection starts automatically when the app launches
+
+By default, it monitors: Desktop, Downloads, Documents
+
+Use Quick Scan for daily checks
+
+Use Full Scan for cloud‑powered deep analysis
+
+Main Features & Usage
+Feature	Description
+Real‑Time Protection	Automatically scans new files in key folders and USB drives in real time
+Quick Scan	Scans Desktop, Downloads, Documents
+Full Scan	Deep scan of a selected folder or drive with cloud enrichment
+Custom Scan	Scan a single file or a specific folder
+USB Scan	Targeted scan for removable drives
+Folder Monitoring (Real‑Time)
+Downloads
+
+Desktop
+
+Documents
+
+USB Drives
+
