@@ -41,14 +41,14 @@ Quick Start
 
 
 Main Features & Usage
-
+======================================================================================
 1. Real-Time Protection
 What it does:  Automatically scans new files in
 •	Downloads folder
 •	Desktop folder
 •	Documents folder
 •	USB drives (when plugged in)
-
+=======================================================================================
 2. Scanning Options
 
 Scan Type
